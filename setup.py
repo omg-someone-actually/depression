@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'depression',         # How you named your package folder (MyLib)
   packages = ['depression'],   # Chose the same as "name"
-  version = '2.1',      # Start with a small number and increase it with every change you make
+  version = '2.2',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'depression',   # Give a short description about your library
   author = 'Eddie B',                   # Type in your name
@@ -16,7 +16,6 @@ setup(
     'multiprocessing',
     'threading',
     'typing',
-    'json',
     'pyyaml',
     'requests',
     'statistics',
